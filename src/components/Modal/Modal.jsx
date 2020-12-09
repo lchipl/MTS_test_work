@@ -32,7 +32,7 @@ return(
 
             
             
-            <CancelPresentationIcon color="primary" className={classes.btnClose} onClick={handleClickOpen} />
+            <div  onClick={handleClickOpen}><CancelPresentationIcon className={classes.btnClose} color="primary"  /></div>
                      
             <Chart data={data} nameCompany={nameCompany}/>
 
