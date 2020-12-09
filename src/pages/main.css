@@ -1,7 +1,10 @@
 .main{
     display:grid;
-    grid-template-columns: 20% 20% 20% 40%;
+    height:100%;
+    width:100%;
+    grid-template-columns: 20% 20% 20%;
     grid-gap:5%;
-
-    margin-left:15%;
+    
+    justify-content:center;
+    margin-top: 5%;
 }
