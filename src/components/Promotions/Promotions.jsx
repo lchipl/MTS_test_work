@@ -34,7 +34,7 @@ export  const  Promotions = ({promotions,data,nameCompany}) => {
         </TableHead>
         <TableBody>
           {promTable.map((promotion,i) => (
-            <TableRow >
+            <TableRow key={promotion.TRADEDATE}>
               
               <TableCell align="center">{promotion.TRADEDATE}</TableCell> 
               <TableCell align="center">{promotion.OPEN}</TableCell>

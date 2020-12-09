@@ -31,7 +31,7 @@ export  const  Dividends = ({dividends}) => {
         </TableHead>
         <TableBody>
           {dividends.map((dividend) => (
-            <TableRow >
+            <TableRow key={dividend.registryclosedate}>
               
               <TableCell align="center">{dividend.registryclosedate}</TableCell> 
               <TableCell align="center">{dividend.value}</TableCell>

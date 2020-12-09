@@ -56,4 +56,4 @@ export function* rootSaga() {
     sagaFetchCompanies(),
     sagaFetchCompany()
   ])
-};
+}
